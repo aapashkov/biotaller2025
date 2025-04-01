@@ -20,7 +20,7 @@ Bienvenido al taller introductorio sobre **aprendizaje automático para datos ge
 ### :computer: Comienzo
 
 La forma **recomendada** de seguir este taller es abrir un **Codespace** de
-GitHub preconfigurado con todas las dependencies que necesitarás. Para
+GitHub preconfigurado con todas las dependencias que necesitarás. Para
 ello, crea un **fork** en tu cuenta de GitHub de este repositorio dando click
 [en este enlace](https://github.com/aapashkov/biotaller2025/fork) (puedes usar
 las opciones por defecto). Después, desde **tu repositorio** da click sobre el
@@ -38,5 +38,5 @@ momento, podrás regresar al mismo Codespace con tu progreso guardado. Cuando ya
 no lo necesites, puedes eliminarlo desde esa misma página.
 
 <p align="center">
-  <img width="600px" src="https://docs.github.com/assets/cb-89126/mw-1440/images/help/codespaces/delete-codespace.webp">
+  <img src="https://docs.github.com/assets/cb-89126/mw-1440/images/help/codespaces/delete-codespace.webp">
 </p>
