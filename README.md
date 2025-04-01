@@ -19,6 +19,8 @@ Bienvenido al taller introductorio sobre **aprendizaje automático para datos ge
 
 ### :computer: Comienzo
 
+#### :sparkles: Desde GitHub Codespaces (recomendado)
+
 La forma **recomendada** de seguir este taller es abrir un **Codespace** de
 GitHub preconfigurado con todas las dependencias que necesitarás. Para
 ello, crea un **fork** en tu cuenta de GitHub de este repositorio dando click
@@ -40,3 +42,17 @@ no lo necesites, puedes eliminarlo desde esa misma página.
 <p align="center">
   <img src="https://docs.github.com/assets/cb-89126/mw-1440/images/help/codespaces/delete-codespace.webp">
 </p>
+
+#### :house: Local
+
+Si deseas trabajar desde tu propia computadora, necesitarás un dispositivo con
+MacOS o Linux (o WSL en Windows) con un gestor de paquetes como
+[conda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html), [mamba](https://mamba.readthedocs.io/en/latest/installation/mamba-installation.html) o
+[micromamba](https://mamba.readthedocs.io/en/latest/installation/micromamba-installation.html), instalado. Después, utiliza el archivo [`env.yml`](/env.yml) para
+reproducir el ambiente que se usará en el taller:
+
+```shell
+$ # Puedes reemplazar 'conda' por 'mamba' o 'micromamba'
+$ conda env create -n bio -f env.yml
+$ conda activate bio
+```
