@@ -9,6 +9,12 @@
   Predicción de bacterias resistentes a antibióticos
 </h1>
 
+<div align="center">
+
+  [Etherpad](https://board.net/p/biotaller2025) | [Presentación](/docs/slides.pdf)
+
+</div>
+
 Bienvenido al taller introductorio sobre **aprendizaje automático para datos genómicos**. Conoce las fuentes de datos, los formatos de archivos y los análisis comunes en datos genómicos, y cómo conectarlos con modelos de aprendizaje automático, a través de un ejemplo relacionado a la **predicción de bacterias resistentes a antibióticos**.
 
 <p align="center">
