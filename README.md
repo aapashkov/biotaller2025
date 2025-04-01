@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://iacongreso.unam.mx">
-    <img width="500px" src="assets/header.png">
+    <img src="assets/header.png">
   </a>
 </p>
 
