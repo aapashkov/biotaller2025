@@ -1,3 +1,4 @@
 {
-    "image": "aapashkov/biotaller2025"
+    "image": "aapashkov/biotaller2025",
+    "postCreateCommand": "mkdir -p /tmp/uscreens && chmod 777 /tmp/uscreens"
 }
