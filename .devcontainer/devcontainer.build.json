@@ -3,7 +3,7 @@
 	"features": {
 		"ghcr.io/mamba-org/devcontainer-features/micromamba:1": {
 			"channels": "conda-forge bioconda",
-			"packages": "ncbi-datasets-cli=17.2.0 sra-tools=3.2.0 spades=4.0.0 prokka=1.14.6 proteinortho=6.3.4 python=3.10.12 pandas=2.2.3 scikit-learn=1.6.1 screen ipykernel",
+			"packages": "ncbi-datasets-cli=17.2.0 sra-tools=3.2.0 spades=4.0.0 prokka=1.14.6 proteinortho=6.3.4 python=3.10.12 pandas=2.2.3 scikit-learn=1.6.1 screen ipykernel seqtk",
 			"version": "2.0.8"
 		}
 	}
