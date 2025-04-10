@@ -1,14 +1,23 @@
-ERR486828	0.03	susceptible
-ERR486845	0.03	susceptible
-ERR486836	0.063	susceptible
-ERR486840	0.063	susceptible
-ERR486830	0.125	susceptible
-ERR486839	0.125	susceptible
-ERR486833	0.125	susceptible
-ERR486827	16.0	resistant
-ERR486846	16.0	resistant
-ERR486847	16.0	resistant
-ERR486848	16.0	resistant
-ERR486849	16.0	resistant
-ERR486851	16.0	resistant
-ERR486852	64.0	resistant
+M2282	ERR486841	0.063	susceptible
+M2300	ERR486833	0.125	susceptible
+M2341	ERR486834	0.25	susceptible
+M30	ERR486832	0.125	susceptible
+M6090	ERR486837	0.063	susceptible
+M6151	ERR486835	0.125	susceptible
+M6257	ERR486848	16	resistant
+M6270	ERR486846	16	resistant
+M6280	ERR486836	0.063	susceptible
+M6283	ERR486840	0.063	susceptible
+M6284	ERR486842	0.125	susceptible
+M6285	ERR486838	0.125	susceptible
+M6286	ERR486845	0.03	susceptible
+M6303	ERR486847	16	resistant
+M6312	ERR486843	0.063	susceptible
+M6327	ERR486829	0.125	susceptible
+M6328	ERR486839	0.125	susceptible
+M6475	ERR486830	0.125	susceptible
+M6489	ERR486849	16	resistant
+M6593	ERR486827	16	resistant
+M6604	ERR486851	16	resistant
+M6711	ERR486852	64	resistant
+M6713	ERR486828	0.03	susceptible
