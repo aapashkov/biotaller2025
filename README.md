@@ -11,7 +11,7 @@
 
 <div align="center">
 
-  [Etherpad](https://board.net/p/biotaller2025) | [Presentación](/docs/slides.pdf)
+  [Etherpad](https://board.net/p/biotaller2025) | [Presentación](https://github.com/aapashkov/biotaller2025/releases/latest/download/slides.pdf)
 
 </div>
 
