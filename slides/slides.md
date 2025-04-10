@@ -432,6 +432,27 @@ $ fasterq-dump FILE...  # Paso 2: extraer lecturas
 
 <!-- header: 'Reconstrucción de genomas: de lecturas a anotaciones' -->
 
+# Usaremos **SPAdes** y **Prokka** para ensamblar y anotar los genomas procariotas
+
+Para ensamblar:
+
+```bash
+$ spades.py --isolate -1 reads_1.fastq -2 reads_2.fastq -o assembly/
+```
+
+Para anotar:
+
+```bash
+$ prokka --outdir name/ --prefix name --locustag name contigs.fasta
+```
+
+Extrae las proteínas hipotéticas:
+
+```bash
+$ grep 'hypothetical protein' name/name.tsv | cut -f 1 | \
+>   seqtk subseq name/name.faa - > name/name.hypothetical.faa
+```
+
 ---
 
 <!-- header: '' -->
@@ -446,8 +467,7 @@ $ fasterq-dump FILE...  # Paso 2: extraer lecturas
 1. Descarga todas las lecturas de `metadata.tsv` en `data/reads`.
 2. Ensambla las lecturas en contigs y guárdalas en `data/genomes`.
 3. Anota los genomas ensamblados y almacénalos en `data/annotations`.
-
-Si no lo logras, no te preocupes. La respuesta y los resultados se proporcionarán mañana.
+4. Extrae las proteínas hipotéticas con `seqtk` y guárdalas en `[sample].hypothetical.faa`
 
 </div>
 
